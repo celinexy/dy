@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	{% load static %}
+	<link href="{% static 'css/style.css' %}" rel="stylesheet" type="text/css"/>
+	<style type="text/css">
+		body {
+			box-sizing: border-box;
+			background-color: #FFFFFF;
+			padding: 30px;
+		}
+		.main-title{
+			text-align: center;
+			color:#483D8B ;
+		}
+	</style>
+	<title></title>
+</head>
+<body>
+
+<div class="main-title">
+	<h1>手語辨識</h1>
+	<hr>
+</div>
+<div class="page">
+	<ul>
+	<li><a href="/index/"><img src="{% static 'img/home-page.png' %}" width="20" height="18">  首頁</a></li>
+	<li><a href="/detect/"><img src="{% static 'img/explore.png' %}" width="20" height="18">  美國手語</a></li>
+	</ul>
+</div>
+<img src="{% url 'video_feed' %}">
+<p>{{name}}</p>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	{% load static %}
+	<link href="{% static 'css/style.css' %}" rel="stylesheet" type="text/css">
+	<style type="text/css">
+		body {
+			box-sizing: border-box;
+			background-color: #FFFFFF;
+			padding: 30px;
+		}
+		.main-title{
+			text-align: center;
+			color:#483D8B ;
+		}
+		.asl {
+				padding-top: 10px;
+				padding-left: 20px;
+				padding-right: 20px;
+				padding-bottom: 10px;
+				}
+		.asl h2{
+				color: #00008B;
+				}
+		.detect {
+				padding-top: 10px;
+				padding-left: 20px;
+				padding-right: 20px;
+				padding-bottom: 10px;
+				}
+		.detect p{
+				color: #00008B;
+				}
+		.btn{
+				background-color: #483D8B; 
+				color: #F5FFFA;
+				padding: 10px 15px;
+  				text-align: center;
+  				text-decoration: none;
+  				display: inline-block;
+  				font-size: 10px;
+  				margin: 4px 2px;
+  				cursor: pointer;
+  				border-radius: 10px;
+  				}
+	</style>
+	<title></title>
+</head>
+<body>
+<div class="main-title">
+	<h1>美國手語介紹</h1>
+	<hr>
+</div>
+<div class="page">
+	<ul>
+	<li><a href="/index/"><img src="{% static 'img/home-page.png' %}" width="20" height="18">  首頁</a></li>
+	<li><a href="/detect/"><img src="{% static 'img/explore.png' %}" width="20" height="18">  美國手語</a></li>
+	</ul>
+</div>
+<div class="asl">
+	<h2>美國手語</h2>
+	<p>美国手语（American Sign Language，简称ASL）是美国、加拿大英语地区及墨西哥部分地区里，最常被使用的手语。一如其他手语，美国手语的文法和语法都和当地的口语不尽相同。目前还没有可靠的调查，证实美国手语的母语使用人口；一般估计在二十万至二百万人之间。</p>
+	<p>美国手语在菲律宾、马来西亚、 新加坡、香港、科特迪瓦、布基纳法索、加纳、多哥、贝宁、尼日利亚、乍得、加蓬、刚果民主共和国、中非共和国、毛里塔尼亚、肯雅、马达加斯加及津巴布韦等地也有使用者。</p>
+</div>
+<div class="detect">
+    <a href="/test/">
+       <button type="submit" class="btn">Try</button></a>
+	   <p>試試看測試美國手語(A-Z)</p>
+ </div>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	{% load static %}
+	<link href="{% static 'css/style.css' %}" rel="stylesheet" type="text/css"/>
+	<style type="text/css">
+		body {
+			box-sizing: border-box;
+			background-color: #FFFFFF;
+			padding: 30px;
+		}
+		.title h1{
+			color:#483D8B ;
+			text-align: center;
+		}
+		fieldset{
+			margin: 4px 2px;
+			padding-left: 20px;
+			padding-right: 20px;
+			padding-bottom: 30px;
+		}
+		fieldset legend{
+			color:#00008B ;
+		}
+		fieldset h2{
+			color: #00008B;
+		}
+	</style>
+</head>
+<body>
+<div class="title">
+	<h1>手語介紹</h1>
+	<hr>
+</div>
+<div class="page">
+	<ul>
+	<li><a href="/index/"><img src="{% static 'img/home-page.png' %}" width="20" height="18">  首頁</a></li>
+	<li><a href="/detect/"><img src="{% static 'img/explore.png' %}" width="20" height="18">  美國手語</a></li>
+	</ul>
+</div>
+
+ <fieldset>
+ 	<legend>手語介紹</legend>
+	<h2>語言介紹</h2>
+	<p>對大多數的人而言，「語言」指的是從一個人口中傳到另一個人耳朵的字、詞或句子。但是對聾啞人士而言「語言」是藉著他們人之手、臉及肢體語語把訊息傳達至對方的眼中。所以我們不能用狹隘的眼光將「語言」定義在從一個人的口中傳到到另外一個人耳朵這種傳送模式的範圍下。</p>
+	<h2>手語介紹</h2>
+	<p>口語語言的必要成分是語音、詞彙和語法。而手語就以不同的「手形」和動向代替了語音這部分的分工。有些地方的手語研究工作者會把基本手形加以編碼（以美國手語字母為基礎），情況就像口語語言使用者為每個音素標音，技術上，手語使用者就可以使用這些「音標」，再加上箭頭以表示動向，作為以手語為本的簡單的書面記錄形式，而不需要動輒拍照或畫圖來作書面記錄。雖然這種情況並不普遍，各地手語也暫沒發展出以手語為本的規範通用文字，但技術上可行。</p>
+	<h2>學習手語有什麼目的</h2>
+	<p>手語學習有利於聽覺障礙者與聽覺障礙者、健聽人與聽覺障礙者之間的溝通。</p>
+	<h2>學手語有什麼好處</h2>
+	<li>可以在安靜的環境中不打擾他人情況下無聲、熱情交流，擺脫環境的限制。還可以在喧鬧環境下向別人快速准羣傳達意思。</li>
+	<li>手語是一種三維語言，可以增強一個人的協調能力，讓手指、手臂隨著大腦有意識的律動。</li>
+	<li>手語是一種三維語言，可以增強一個人的協調能力，讓手指、手臂隨著大腦有意識的律動。</li>
+	<li>學手語可以開發視覺思維能力，活躍全腦，還可以可以鍛鍊眼力，讓你的觀察能力更敏捷、更細微。</li>
+	<li>學手語可以讓表情生動豐富，眉目傳情，這樣還可以防止老年「癡呆症」。</li>
+	<h2>手語例子</h2>
+	<li>美國手語 (ASL)</li>
+	<li>BANZSL 對於英國手語、澳州手語、紐西蘭手語等相當接近的手語語言的總稱</li>
+	<li>英國手語 (BSL)</li>
+	<li>中國大陸手語（ZGS）</li>
+	<li>香港手語 (HKSL)</li>
+	<li>澳門手語</li>
+	<li>法國手語（LSF）</li>
+	<li>愛爾蘭手語 (ISL)</li>
+	<li>日本手語 (JSL)</li>
+	<li>台灣手語 (TSL)</li>
+	<li>韓國手語 (KSL)</li>
+	<li>尼加拉瓜手語 (ISN)</li>
+</fieldset>
+</body>
+</html>

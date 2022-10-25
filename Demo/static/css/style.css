@@ -1,0 +1,20 @@
+
+.page ul{
+	list-style: none;
+	padding: 15px;
+	margin: 0;
+	text-align: left;
+}
+.page ul li{
+	display: inline;
+	padding: 10px;
+}
+.page a{
+	text-decoration: none;
+	color: #191970;
+}
+.page a:hover{
+	text-decoration: none;
+	background-color: #F8F8FF;
+	color: #ADD8E6;
+}
